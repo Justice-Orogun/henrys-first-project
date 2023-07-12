@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+} 
+
+
+section{ 
+    min-height: 100vh; 
+    background-image: url("image/buhari.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container{ 
+    width: 85%; 
+    margin: auto;
+} 
+
+nav{ 
+    height: 80px;
+
+}
+
+nav h1{ 
+    float: left; 
+    line-height: 80px; 
+    font-size: 35px; 
+    color: red; 
+    cursor: pointer;
+
+}
+
+nav ul{ 
+    float: right; 
+    line-height: 80px; 
+
+}
+
+
+nav ul li{ 
+    list-style: none; 
+    display: inline-block; 
+    padding: 6px 5px;
+
+}
+
+
+nav ul li .active{ 
+    background-color: blue;
+}
+
+
+nav ul li a{ 
+    color: #fff;
+    text-decoration: none; 
+    text-transform: uppercase; 
+    border-radius: 5px; 
+    padding: 7px 8px;
+
+}
+
+nav ul li a:hover{ 
+    background-color: blue;
+    transition: 0.5s ease;
+} 
+
+.intro { 
+    width: 50%; 
+    margin: auto; 
+    text-align: center; 
+    transform: translateY(25vh); 
+
+}  
+
+.intro h1{ 
+    font-size: 35px; 
+    color: #fff; 
+    letter-spacing: 1.5px; 
+    font-weight: 800; 
+    margin-bottom: 25px;
+
+
+}  
+
+
+.intro p{ 
+    font-size: 20px ; 
+    color: #fff; 
+    line-height: 1.5;  
+    margin-bottom: 50px;
+}
+
+
+.intro .btn{ 
+    color: #fff; 
+    padding: 12px 25px; 
+    background-color: red; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    letter-spacing: 1.5px;
+
+}
+
+
+.intro .btn:hover{ 
+    background-color: blue; 
+    transition: 0.5s ease;
+}
